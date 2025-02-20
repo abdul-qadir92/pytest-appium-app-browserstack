@@ -1,12 +1,12 @@
 name: Run Appium Tests with Pytest
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:  # This enables manual triggering of the workflow
+    inputs:  # (Optional) You can define inputs that will be prompted when starting the workflow
+      example_input:
+        description: 'Trigger a build on BrowserStack'  # Description shown in the GitHub UI
+        required: true                    # Marks the input as required
+        default: 'default_value'          # Optional default value
 
 jobs:
   run-tests:
