@@ -1,0 +1,24 @@
+[percy] Notice: Percy collects CI logs to improve service and enhance your experience. These logs help us debug issues and provide insights on your dashboards, making it easier to optimize the product experience. Logs are stored securely for 30 days. You can opt out anytime with export PERCY_CLIENT_ERROR_LOGS=false, but keeping this enabled helps us offer the best support and features.
+[percy] Percy has started!
+[percy] Snapshot taken: bstack_sample.py::TestSample::test_example_1-testcase
+[percy] Percy has stopped
+[percy] Finalized build #1: https://percy.io/68c4e7a5/BrowserStack-Pytest/builds/37857673
+[percy] Build's CLI and CI logs sent successfully. Please share this log ID with Percy team in case of any issues - 37857673_build_37857673_cli_9fa4a6b44ce067d8348131fbe969590af0c84622
+[percy] Notice: Percy collects CI logs to improve service and enhance your experience. These logs help us debug issues and provide insights on your dashboards, making it easier to optimize the product experience. Logs are stored securely for 30 days. You can opt out anytime with export PERCY_CLIENT_ERROR_LOGS=false, but keeping this enabled helps us offer the best support and features.
+[percy] Percy has started!
+[percy] Snapshot taken: bstack_sample.py::TestSample::test_example_1-testcase
+[percy] Percy has stopped
+[percy] Finalized build #2: https://percy.io/68c4e7a5/BrowserStack-Pytest/builds/37911967
+[percy] Build's CLI and CI logs sent successfully. Please share this log ID with Percy team in case of any issues - 37911967_build_37911967_cli_1093922d58c27e864a28841581880d12ded41355
+[percy] Notice: Percy collects CI logs to improve service and enhance your experience. These logs help us debug issues and provide insights on your dashboards, making it easier to optimize the product experience. Logs are stored securely for 30 days. You can opt out anytime with export PERCY_CLIENT_ERROR_LOGS=false, but keeping this enabled helps us offer the best support and features.
+[percy] Percy has started!
+[percy] Snapshot taken: bstack_sample.py::TestSample::test_example_1-testcase
+[percy] Percy has stopped
+[percy] Finalized build #3: https://percy.io/68c4e7a5/BrowserStack-Pytest/builds/37913185
+[percy] Build's CLI and CI logs sent successfully. Please share this log ID with Percy team in case of any issues - 37913185_build_37913185_cli_37ef025e87985d20d6e6edbacdb8119f726a4738
+[percy] Notice: Percy collects CI logs to improve service and enhance your experience. These logs help us debug issues and provide insights on your dashboards, making it easier to optimize the product experience. Logs are stored securely for 30 days. You can opt out anytime with export PERCY_CLIENT_ERROR_LOGS=false, but keeping this enabled helps us offer the best support and features.
+[percy] Percy has started!
+[percy] Snapshot taken: bstack_sample.py::TestSample::test_example_1-testcase
+[percy] Percy has stopped
+[percy] Finalized build #4: https://percy.io/68c4e7a5/BrowserStack-Pytest/builds/37913281
+[percy] Build's CLI and CI logs sent successfully. Please share this log ID with Percy team in case of any issues - 37913281_build_37913281_cli_99ce5d125719342baf3847c748695ec6f3ab14e2

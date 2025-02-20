@@ -1,0 +1,45 @@
+name: Run Appium Tests with Pytest
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest  # You can also choose macos-latest or windows-latest depending on the platform needed
+    env:
+      BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+      BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'  # Choose your Python version
+
+      - name: Install dependencies
+        run: |
+          # Install required dependencies for Appium and pytest
+          sudo apt-get update
+          sudo apt-get install -y curl unzip
+
+          # Install Python dependencies
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt  # Assuming your requirements.txt has pytest, appium-python-client, etc.
+
+      - name: run tests in parallel on android
+        run: |
+          cd android
+          browserstack-sdk pytest -s bstack_sample.py
+
+      - name: run tests in parallel on ios
+        run: |
+          cd ios
+          browserstack-sdk pytest -s bstack_sample.py

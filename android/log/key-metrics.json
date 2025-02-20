@@ -1,0 +1,52 @@
+[
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 191.36104099452496,
+        "duration": 837.0358339995146,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 33075
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1034.4140829890966,
+        "duration": 342.36825001239777,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 33075
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 1377.2423750013113,
+        "duration": 0.019041001796722412,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 33075
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 1377.052957996726,
+        "duration": 12719.030957996845,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 33075
+    },
+    {
+        "name": "sdk:app-automate:app-upload",
+        "entryType": "measure",
+        "startTime": 14096.667666003108,
+        "duration": 7405.8701249957085,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 33075
+    }
+]
