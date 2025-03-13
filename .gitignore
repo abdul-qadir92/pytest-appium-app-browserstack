@@ -2,3 +2,5 @@
 **/.pytest_cache
 **/env/
 **/local.log
+android/log
+ios/log

@@ -14,6 +14,7 @@ accessKey: YOUR_ACCESS_KEY
 projectName: BrowserStack Samples
 # Set `buildName` as the name of the job / testsuite being run
 buildName: browserstack build
+buildTag: Sanity
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution
@@ -26,8 +27,8 @@ framework: pytest
 
 source: pytest-appium-browserstack:sample-sdk:v1.0
 
-app: ./BStackSampleApp.ipa
-#app: ./LocalSample.ipa #For running local tests
+#app: ./BStackSampleApp.ipa
+app: ./LocalSample.ipa #For running local tests
 
 # =======================================
 # Platforms (Browsers / Devices to test)
@@ -77,6 +78,6 @@ debug: true # <boolean> # Set to true if you need screenshots for every selenium
 networkLogs: true # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
-logLevel: debug
+#logLevel: debug
 appProfiling: true
 testObservability: true

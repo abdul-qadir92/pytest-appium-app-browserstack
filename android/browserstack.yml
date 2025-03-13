@@ -25,8 +25,8 @@ buildIdentifier: ${BUILD_NUMBER} # Supports strings along with either/both ${exp
 # This property is needed to send test context to BrowserStack (test name, status)
 framework: pytest
 
-app: ./WikipediaSample.apk
-# app: ./LocalSample.apk #For running local tests
+#app: ./WikipediaSample.apk
+app: ./LocalSample.apk #For running local tests
 
 # =======================================
 # Platforms (Browsers / Devices to test)
@@ -74,11 +74,11 @@ source: pytest-appium-browserstack:sample-sdk:v1.0
 # Debugging features
 # ===================
 debug: true # <boolean> # Set to true if you need screenshots for every selenium command ran
-networkLogs: false # <boolean> Set to true to enable HAR logs capturing
+networkLogs: true # <boolean> Set to true to enable HAR logs capturing
 consoleLogs: errors # <string> Remote browser's console debug levels to be printed (Default: errors)
 # Available options are `disable`, `errors`, `warnings`, `info`, `verbose` (Default: errors)
 testObservability: true
-logLevel: debug
+#logLevel: debug
 appProfiling: true
 interactiveDebugging: true
 video: true
