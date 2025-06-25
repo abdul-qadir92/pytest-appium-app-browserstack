@@ -88,3 +88,5 @@ consoleLogs: errors # <string> Remote browser's console debug levels to be print
 #logLevel: debug
 appProfiling: true
 testObservability: true
+percy: true
+percyCaptureMode: auto

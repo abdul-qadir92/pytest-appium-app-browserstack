@@ -82,3 +82,5 @@ testObservability: true
 appProfiling: true
 interactiveDebugging: true
 video: true
+percy: true
+percyCaptureMode: auto
