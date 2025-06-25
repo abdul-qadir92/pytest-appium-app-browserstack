@@ -25,8 +25,8 @@ buildIdentifier: ${BUILD_NUMBER} # Supports strings along with either/both ${exp
 # This property is needed to send test context to BrowserStack (test name, status)
 framework: pytest
 
-#app: ./WikipediaSample.apk
-app: bs://d6ec9fd34c367394ce16ff8c5fa22cb1b89e4a53 #./LocalSample.apk #For running local tests
+app: ./WikipediaSample.apk
+#app: ./LocalSample.apk #For running local tests
 
 # =======================================
 # Platforms (Browsers / Devices to test)

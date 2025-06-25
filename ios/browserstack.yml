@@ -27,7 +27,7 @@ framework: pytest
 
 source: pytest-appium-browserstack:sample-sdk:v1.0
 
-app: bs://79a8dfde19512f15a16a8f7a64e5abe5dc8069d0 #./BStackSampleApp.ipa
+app: ./BStackSampleApp.ipa
 #app: "bs://0a07da61ebd46557c2af72fb35fa1446e265f844" #./LocalSample.ipa #For running local tests
 
 # =======================================
