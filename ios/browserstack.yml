@@ -90,3 +90,9 @@ appProfiling: true
 testObservability: true
 percy: true
 percyCaptureMode: auto
+accessibility: true
+accessibilityOptions:
+  wcagVersion: wcag21aa
+  includeIssueType:
+    bestPractice: true
+  scannerProcessingTimeout: 10
