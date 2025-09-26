@@ -1,4 +1,4 @@
-name: Run Appium Tests with Pytest
+name: App Automation End to End Pipeline
 
 on:
   workflow_dispatch:  # This enables manual triggering of the workflow
