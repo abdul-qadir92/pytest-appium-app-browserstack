@@ -86,7 +86,8 @@ percy: true
 percyCaptureMode: auto
 accessibility: true
 accessibilityOptions:
-  wcagVersion: wcag21aa
+  wcagVersion: wcag22aaa
   includeIssueType:
     bestPractice: true
-  scannerProcessingTimeout: 10
+    needsReview: true
+  scannerProcessingTimeout: 20
