@@ -86,6 +86,7 @@ percy: true
 percyCaptureMode: auto
 accessibility: true
 accessibilityOptions:
+  screenReaderAutomationReport: true
   wcagVersion: wcag22aaa
   includeIssueType:
     bestPractice: true
