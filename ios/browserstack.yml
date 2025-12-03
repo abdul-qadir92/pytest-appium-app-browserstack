@@ -40,19 +40,12 @@ platforms:
   - deviceName: iPhone 14 Pro
     osVersion: 16
     platformName: ios
-  - deviceName: iPhone 13 Pro
-    osVersion: 15
-    platformName: ios
   - deviceName: iPhone 15
     osVersion: 17
     platformName: ios
   - deviceName: iPhone 16 Pro Max
     osVersion: 18
     platformName: ios
-  - deviceName: iPhone 13 Pro Max
-    osVersion: 18
-    platformName: ios
-
 
 # =======================
 # Parallels per Platform
@@ -92,6 +85,7 @@ percy: true
 percyCaptureMode: auto
 accessibility: true
 accessibilityOptions:
+  screenReaderAutomationReport: true
   wcagVersion: wcag22aaa
   includeIssueType:
     bestPractice: true
