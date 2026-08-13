@@ -40,8 +40,8 @@ platforms:
   - deviceName: Samsung Galaxy S21
     osVersion: 11.0
     platformName: android
-  - deviceName: Google Pixel 6 Pro
-    osVersion: 15.0
+  - deviceName: Google Pixel 6
+    osVersion: 12.0
     platformName: android
     
 # =======================
