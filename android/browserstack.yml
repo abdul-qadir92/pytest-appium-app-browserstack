@@ -41,7 +41,7 @@ platforms:
     osVersion: 11.0
     platformName: android
   - deviceName: Google Pixel 6 Pro
-    osVersion: 12.0
+    osVersion: 15.0
     platformName: android
     
 # =======================
