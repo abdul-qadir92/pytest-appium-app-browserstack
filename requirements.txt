@@ -8,4 +8,4 @@ pytest
 pytest-variables
 pytest-selenium
 Appium-Python-Client
-browserstack-sdk
+https://sdk-assets.browserstack.com/python/browserstack_sdk-latest.tar.gz
